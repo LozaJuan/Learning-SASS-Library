@@ -1,0 +1,21 @@
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 90px;
+    gap:1rem;
+    margin: 7px;
+    padding: 7px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 70px;
+}

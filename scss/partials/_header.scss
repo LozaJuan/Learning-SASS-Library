@@ -1,0 +1,65 @@
+header {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    a {
+        text-decoration: none;
+        background-color: rgba(0, 128, 0, 0.826);
+        padding: 1rem;
+        font-weight: bold;
+    }
+    a:hover {
+        color: white;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: red;
+    }
+    
+    li {
+        background-color: yellow;
+        display: flex;
+        font-size: larger;
+    }
+    .favicon {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: yellow;
+    }
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 550px) {
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: pink;
+        padding: 10px;
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        h3 {
+            padding: 20px;
+        }
+        .items {
+            padding: 10px;
+        }
+    }
+}
+
+

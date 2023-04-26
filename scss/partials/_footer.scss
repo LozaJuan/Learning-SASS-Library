@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        background-color: red;
+    }
+    
+    .container-networks a img{
+        width: 30px;
+        background-color: yellow;
+    }
+    
+    .title-footer {
+        background-color: yellow;
+        font-size: medium;
+        padding-bottom: 5px;
+    }
+    
+}
+
+
+.whatsapp {
+    background-color: yellow;
+    width: 40px;
+    bottom: 2rem;
+    right: 2rem;
+    position: fixed;
+}
